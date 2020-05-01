@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body{
+  background-image: url("https://thumbs.gfycat.com/FreeBriskCicada-small.gif");
+
+  }
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+div.gallery img {
+  width: 100%;
+  height:auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  font-family: algerian;
+  color: white;
+  background-color: red;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 60px;
+  margin: auto;
+  float: left;
+  width: 30%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+h1,h4{
+  font-family: algerian;
+  color: white;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<h1>Team Equalizer</h1>
+<h4>lorem ipsum</h4>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://github.com/EqualizerShubham">
+      <img src="shubh.jpeg" alt="Shubham" width="600" height="400">
+    </a>
+    <div class="desc">Shubham Pandey</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://github.com/Samarth484">
+      <img src="sam2.jpeg" alt="Samarth" width="600" height="400">
+    </a>
+    <div class="desc">Samarth Srivastava</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://github.com/priyalbhatewara123">
+      <img src="priyal.jpeg" alt="Priyal" width="600" height="400">
+    </a>
+    <div class="desc">Priyal Bhaterwara</div>
+  </div>
+</div>
+
+</body>
+</html>

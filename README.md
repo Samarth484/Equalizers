@@ -1,2 +1,1 @@
-# TeamEqualizers
-This is our hack for HackCoVIT
+# Made by Equilizers
