@@ -32,3 +32,7 @@ Go! check this informatics page to get some crucial information.
 ```
 
 
+**for a quick roll of your eyeballs on our entire project simply checkout:**
+https://samarth484.github.io/TeamEqualizers/
+
+
